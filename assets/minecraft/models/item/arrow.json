@@ -1,6 +1,6 @@
 {
     "parent": "item/classic/generatedclassic",
     "textures": {
-        "layer0": "item/iron_sword"
+        "layer0": "item/arrow"
     }
 }
