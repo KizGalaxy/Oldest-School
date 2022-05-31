@@ -1,0 +1,6 @@
+{
+    "parent": "item/classic/generatedclassic",
+    "textures": {
+        "layer0": "item/chainmail_chestplate"
+    }
+}
