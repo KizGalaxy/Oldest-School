@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bed",
+  "textures": {
+    "layer0": "minecraft:item/bed"
+  }
+}
