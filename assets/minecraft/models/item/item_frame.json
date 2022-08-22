@@ -1,13 +1,7 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/generated",
+	"parent": "minecraft:item/classic/generateditemframe",
 	"textures": {
 		"layer0": "item/item_frame"
-	},
-	"display": {
-		"fixed": {
-			"translation": [0, 0, 0.99],
-			"scale": [-1, 1, 0]
-		}
 	}
 }

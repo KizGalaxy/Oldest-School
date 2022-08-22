@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/classic/generateditemframe",
   "textures": {
-    "layer0": "minecraft:item/bed"
+    "layer0": "minecraft:item/blaze_powder"
   }
 }
