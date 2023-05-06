@@ -1,12 +1,6 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "minecraft:item/classic/handhelditemframe",
   "textures": {
     "layer0": "minecraft:item/blaze_rod"
-  },
-	"display": {
-		"fixed": {
-			"translation": [0, 0, 0.99],
-			"scale": [-1, 1, 0]
-		}
-	}
+  }
 }

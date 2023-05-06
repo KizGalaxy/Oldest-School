@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/dirt",
+  "textures": {
+    "layer0": "minecraft:items/dirt_item"
+  }
+}

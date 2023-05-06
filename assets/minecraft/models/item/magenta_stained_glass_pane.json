@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/classic/generateditemframe",
+  "textures": {
+    "layer0": "minecraft:block/magenta_stained_glass"
+  }
+}

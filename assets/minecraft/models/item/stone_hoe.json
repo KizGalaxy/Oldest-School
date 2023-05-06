@@ -1,17 +1,6 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "minecraft:item/classic/handheldalpha1.0.6",
   "textures": {
     "layer0": "minecraft:item/stone_hoe"
-  },
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -90, 55],
-			"translation": [0, 4, 0.5]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, 90, -55],
-			"translation": [0, 4, 0.5],
-			"scale": [0.85, 0.85, 0.85]
-		}
-	}
+  }
 }

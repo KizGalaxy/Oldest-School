@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/classic/generateditemframe",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_blocks"
+  }
+}
