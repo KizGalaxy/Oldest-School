@@ -349,8 +349,8 @@
 "generator.minecraft.flat": "Superflat",
 "generator.large_biomes": "Large Biomes",
 "generator.minecraft.large_biomes": "Large Biomes",
-"generator.amplified": "Amplified",
-"generator.minecraft.amplified": "Amplified",
+"generator.amplified": "AMPLIFIED",
+"generator.minecraft.amplified": "AMPLIFIED",
 "generator.amplified.info": "Notice: Just for fun, requires beefy computer",
 "generator.minecraft.amplified.info": "Notice: Just for fun, requires beefy computer",
 "generator.debug_all_block_states": "Debug Mode",
@@ -536,12 +536,12 @@
 "disconnect.exceeded_packet_rate": "Kicked for exceeding packet rate limit",
 "soundCategory.master": "Master Volume",
 "soundCategory.music": "Music",
-"soundCategory.record": "Jukebox/Noteblocks",
+"soundCategory.record": "Jukebox & Note Blocks",
 "soundCategory.weather": "Weather",
-"soundCategory.hostile": "Hostile Creatures",
-"soundCategory.neutral": "Friendly Creatures",
+"soundCategory.hostile": "Enemy Monsters",
+"soundCategory.neutral": "Friendly Animals",
 "soundCategory.player": "Players",
-"soundCategory.block": "Blocks",
+"soundCategory.block": "Blocks & Environment",
 "soundCategory.ambient": "Ambient/Environment",
 "soundCategory.voice": "Voice/Speech",
 "record.nowPlaying": "Now playing: %s",
@@ -561,7 +561,7 @@
 "options.language": "Language...",
 "options.sounds": "Music & Sounds...",
 "options.sounds.title": "Music & Sound Options",
-"options.languageWarning": "Language translations may not be 100%% accurate",
+"options.languageWarning": "Language translations may not be 100% accurate",
 "options.videoTitle": "Video Settings",
 "options.mouse_settings": "Mouse Settings...",
 "options.mouse_settings.title": "Mouse Settings",
@@ -597,7 +597,7 @@
 "options.entityDistanceScaling": "Entity Distance",
 "options.viewBobbing": "View Bobbing",
 "options.ao": "Smooth Lighting",
-"options.ao.off": "OFF",
+"options.ao.off": "Off",
 "options.ao.min": "Minimum",
 "options.ao.max": "Maximum",
 "options.prioritizeChunkUpdates": "Priority updates",
@@ -609,7 +609,7 @@
 "options.prioritizeChunkUpdates.nearby.tooltip": "Nearby chunks are always compiled immediately. This may impact game performance when blocks are placed or destroyed.",
 "options.chunks": "%s chunks",
 "options.framerate": "%s fps",
-"options.framerateLimit": "Max Framerate",
+"options.framerateLimit": "Performance",
 "options.framerateLimit.max": "Unlimited",
 "options.difficulty": "Difficulty",
 "options.difficulty.online": "Server Difficulty",
@@ -683,7 +683,7 @@
 "options.modelPart.right_sleeve": "Right Sleeve",
 "options.modelPart.left_pants_leg": "Left Pants Leg",
 "options.modelPart.right_pants_leg": "Right Pants Leg",
-"options.resourcepack": "Resource Packs...",
+"options.resourcepack": "Resource Packs",
 "options.fullscreen": "Fullscreen",
 "options.vsync": "Use VSync",
 "options.touchscreen": "Touchscreen Mode",
@@ -731,10 +731,10 @@
 "narrator.toast.enabled": "Narrator Enabled",
 "difficulty.lock.title": "Lock World Difficulty",
 "difficulty.lock.question": "Are you sure you want to lock the difficulty of this world? This will set this world to always be %1$s, and you will never be able to change that again.",
-"title.oldgl.eol.line1": "Old graphics card detected; this may prevent you from",
-"title.oldgl.deprecation.line1": "Old graphics card detected; this may prevent you from",
-"title.oldgl.eol.line2": "playing in the future as OpenGL 2.0 will be required.",
-"title.oldgl.deprecation.line2": "playing in the future as OpenGL 2.0 will be required.",
+"title.oldgl.eol.line1": ""Old graphics card detected; this may prevent you from"",
+"title.oldgl.deprecation.line1": ""Old graphics card detected; this may prevent you from"",
+"title.oldgl.eol.line2": ""playing in the far future as OpenGL 2.0 will be required."",
+"title.oldgl.deprecation.line2": ""playing in the far future as OpenGL 2.0 will be required."",
 "title.32bit.deprecation": "32-bit system detected: this may prevent you from playing in the future as a 64-bit system will be required!",
 "title.32bit.deprecation.realms.header": "32-bit system detected",
 "title.32bit.deprecation.realms": "Minecraft will soon require a 64-bit system, which will prevent you from playing or using Realms on this device. You will need to manually cancel any Realms subscription.",
@@ -746,21 +746,21 @@
 "controls.keybinds": "Key Binds...",
 "controls.keybinds.title": "Key Binds",
 "key.sprint": "Sprint",
-"key.forward": "Walk Forwards",
-"key.left": "Strafe Left",
-"key.back": "Walk Backwards",
-"key.right": "Strafe Right",
+"key.forward": "Forward",
+"key.left": "Left",
+"key.back": "Back",
+"key.right": "Right",
 "key.jump": "Jump",
 "key.inventory": "Inventory",
-"key.drop": "Drop Item",
+"key.drop": "Drop",
 "key.swapOffhand": "Swap Item In Hands",
-"key.chat": "Open Chat",
+"key.chat": "Chat",
 "key.sneak": "Sneak",
 "key.playerlist": "List Players",
-"key.attack": "Attack/Destroy",
-"key.use": "Use Item/Place Block",
+"key.attack": "Attack",
+"key.use": "Use Item",
 "key.pickItem": "Pick Block",
-"key.command": "Open Command",
+"key.command": "Command",
 "key.socialInteractions": "Social Interactions Screen",
 "key.screenshot": "Take Screenshot",
 "key.togglePerspective": "Toggle Perspective",
@@ -889,7 +889,7 @@
 "pack.nameAndSource": "%s (%s)",
 "pack.openFolder": "Open resource pack folder",
 "pack.folderInfo": "(Place resource pack files here)",
-"resourcePack.title": "Select Resource Packs",
+"resourcePack.title": "Select Resource Pack",
 "resourcePack.server.name": "World Specific Resources",
 "resourcePack.broken_assets": "BROKEN ASSETS DETECTED",
 "resourcePack.vanilla.description": "The default resources for Minecraft",
@@ -936,7 +936,7 @@
 "block.minecraft.grass_block": "Grass Block",
 "block.minecraft.dirt": "Dirt",
 "block.minecraft.coarse_dirt": "Dirt",
-"block.minecraft.podzol": "Podzol",
+"block.minecraft.podzol": "tile.dirt.podzol.name",
 "block.minecraft.cobblestone": "Cobblestone",
 "block.minecraft.oak_planks": "Oak Wood Planks",
 "block.minecraft.spruce_planks": "Spruce Wood Planks",
@@ -950,7 +950,7 @@
 "block.minecraft.birch_sapling": "Birch Sapling",
 "block.minecraft.jungle_sapling": "Jungle Sapling",
 "block.minecraft.acacia_sapling": "Acacia Sapling",
-"block.minecraft.dark_oak_sapling": "Dark Oak Sapling",
+"block.minecraft.dark_oak_sapling": "Roofed Oak Sapling",
 "block.minecraft.mangrove_propagule": "Mangrove Propagule",
 "block.minecraft.oak_door": "Wooden Door",
 "block.minecraft.spruce_door": "Spruce Door",
@@ -990,7 +990,7 @@
 "block.minecraft.birch_log": "Birch Wood",
 "block.minecraft.jungle_log": "Jungle Wood",
 "block.minecraft.acacia_log": "Acacia Wood",
-"block.minecraft.dark_oak_log": "Dark Oak Wood",
+"block.minecraft.dark_oak_log": "Oak Roof Wood",
 "block.minecraft.mangrove_log": "Mangrove Log",
 "block.minecraft.mangrove_roots": "Mangrove Roots",
 "block.minecraft.muddy_mangrove_roots": "Muddy Mangrove Roots",
@@ -1013,7 +1013,7 @@
 "block.minecraft.birch_leaves": "Birch Leaves",
 "block.minecraft.jungle_leaves": "Jungle Leaves",
 "block.minecraft.acacia_leaves": "Acacia Leaves",
-"block.minecraft.dark_oak_leaves": "Dark Oak Leaves",
+"block.minecraft.dark_oak_leaves": "Oak Roof Leaves",
 "block.minecraft.mangrove_leaves": "Mangrove Leaves",
 "block.minecraft.dead_bush": "Dead Bush",
 "block.minecraft.grass": "Grass",
@@ -1040,7 +1040,7 @@
 "block.minecraft.green_stained_glass": "Green Stained Glass",
 "block.minecraft.red_stained_glass": "Red Stained Glass",
 "block.minecraft.black_stained_glass": "Black Stained Glass",
-"block.minecraft.white_stained_glass_pane": "White Stained Glass Pane",
+"block.minecraft.white_stained_glass_pane": "White Stained Glass Pane Pane",
 "block.minecraft.orange_stained_glass_pane": "Orange Stained Glass Pane",
 "block.minecraft.magenta_stained_glass_pane": "Magenta Stained Glass Pane",
 "block.minecraft.light_blue_stained_glass_pane": "Light Blue Stained Glass Pane",
@@ -1057,8 +1057,8 @@
 "block.minecraft.red_stained_glass_pane": "Red Stained Glass Pane",
 "block.minecraft.black_stained_glass_pane": "Black Stained Glass Pane",
 "block.minecraft.glass_pane": "Glass Pane",
-"block.minecraft.dandelion": "Dandelion",
-"block.minecraft.poppy": "Poppy",
+"block.minecraft.dandelion": "Flower",
+"block.minecraft.poppy": "Rose",
 "block.minecraft.blue_orchid": "Blue Orchid",
 "block.minecraft.allium": "Allium",
 "block.minecraft.azure_bluet": "Azure Bluet",
@@ -4727,11 +4727,11 @@
 "commands.publish.started": "Local game hosted on port %s",
 "commands.publish.success": "Multiplayer game is now hosted on port %s",
 "commands.publish.failed": "Unable to host local game",
-"commands.advancement.advancementNotFound": "Unknown achievement or statistic '%s'",
-"advancement.advancementNotFound": "Unknown achievement or statistic '%s'",
+"commands.advancement.advancementNotFound": "Unknown achievmenet or statistic '%s'",
+"advancement.advancementNotFound": "Unknown achievmenet or statistic '%s'",
 "commands.advancement.criterionNotFound": "The advancement '%s' does not contain the criterion '%s'",
-"commands.advancement.grant.one.to.one.success": "Successfully given %s the stat %s",
-"commands.advancement.grant.one.to.many.success": "Successfully given %s the stat %s",
+"commands.advancement.grant.one.to.one.success": "Successfully given %s the stat '%s'",
+"commands.advancement.grant.one.to.many.success": "Successfully given %s the stat '%s'",
 "commands.advancement.grant.many.to.one.success": "Successfully given all achievements to %s",
 "commands.advancement.grant.many.to.many.success": "Successfully given all achievements to %s",
 "commands.advancement.grant.one.to.one.failure": "Player %s already has achievement %s",
@@ -4842,8 +4842,8 @@
 "commands.function.success.single": "Executed %2$s commands from function '%1$s'",
 "commands.function.success.multiple": "Executed %2$s commands from function '%1$s'",
 "commands.give.failed.toomanyitems": "Can't give more than %s of %s",
-"commands.give.success.single": "Given %s * %d to %s",
-"commands.give.success.multiple": "Given %s * %d to %s",
+"commands.give.success.single": "Given %s (ID %d) * %d to %s",
+"commands.give.success.multiple": "Given %s (ID %d) * %d to %s",
 "commands.playsound.failed": "Player %s is too far away to hear the sound",
 "commands.playsound.success.single": "Played sound '%s' to %s",
 "commands.playsound.success.multiple": "Played sound '%s' to %s",
@@ -5060,9 +5060,9 @@
 "commands.team.option.deathMessageVisibility.unchanged": "Nothing changed, death message visibility is already that value",
 "commands.team.option.collisionRule.unchanged": "Nothing changed, collision rule is already that value",
 "commands.team.list.members.empty": "Team %s has no players",
-"commands.team.list.members.success": "Showing %d player(s) in team %s:",
+"commands.team.list.members.success": "Showing %d player(s) in team %s",
 "commands.team.list.teams.empty": "There are no teams registered on the scoreboard",
-"commands.team.list.teams.success": "Showing %d teams on the scoreboard:",
+"commands.team.list.teams.success": "Showing %d teams on the scoreboard",
 "commands.team.add.success": "Added new team '%s' successfully",
 "commands.team.remove.success": "Removed team %s",
 "commands.team.empty.success": "Removed all %d player(s) from team %s",
@@ -5091,7 +5091,7 @@
 "arguments.objective.notFound": "No objective was found by the name '%s'",
 "arguments.objective.readonly": "The objective '%s' is read-only and cannot be set",
 "argument.scoreboardDisplaySlot.invalid": "No such display slot '%s'",
-"argument.criteria.invalid": "Invalid objective criteria type '%s'",
+"argument.criteria.invalid": "Invalid objective criteria type. Valid types are: %s",
 "commands.scoreboard.objectives.add.duplicate": "An objective with the name '%s' already exists",
 "commands.scoreboard.objectives.list.empty": "There are no objectives on the scoreboard",
 "commands.scoreboard.objectives.list.success": "There are %s objectives: %s",
@@ -5106,9 +5106,9 @@
 "commands.execute.conditional.fail": "Test failed",
 "commands.execute.conditional.fail_count": "Test failed, count: %s",
 "commands.scoreboard.players.list.empty": "There are no tracked players on the scoreboard",
-"commands.scoreboard.players.list.success": "Showing %d tracked players on the scoreboard:",
+"commands.scoreboard.players.list.success": "Showing %d tracked players on the scoreboard",
 "commands.scoreboard.players.list.entity.empty": "Player %s has no scores recorded",
-"commands.scoreboard.players.list.entity.success": "Showing %d tracked objective(s) for %s:",
+"commands.scoreboard.players.list.entity.success": "Showing %d tracked objective(s) for %s",
 "commands.scoreboard.players.list.entity.entry": "- %2$s: %1$d (%3$s)",
 "commands.scoreboard.players.set.success.single": "Set score of %s for player %s to %d",
 "commands.scoreboard.players.set.success.multiple": "Set score of %s for player %s to %d",
@@ -5385,3 +5385,500 @@
 "outOfMemory.title": "Out of memory!",
 "outOfMemory.message": "Minecraft has run out of memory.\n\nThis could be caused by a bug in the game or by the Java Virtual Machine not being allocated enough memory.\n\nTo prevent level corruption, the current game has quit. We've tried to free up enough memory to let you go back to the main menu and back to playing, but this may not have worked.\n\nPlease restart the game if you see this message again"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
