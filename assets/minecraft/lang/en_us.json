@@ -310,7 +310,7 @@
 "spectatorMenu.team_teleport": "Teleport to team member",
 "spectatorMenu.team_teleport.prompt": "Select a team to teleport to",
 "spectatorMenu.root.prompt": "Press a key to select a command, and again to use it.",
-"selectWorld.gameMode": "Game Mode",
+"selectWorld.gameMode": "Game Mode:",
 "selectWorld.gameMode.survival": "Survival",
 "selectWorld.gameMode.survival.line1": "Search for resources, crafting, gain",
 "selectWorld.gameMode.survival.line2": "levels, health and hunger",
@@ -392,7 +392,7 @@
 "multiplayer.title": "Play Multiplayer",
 "multiplayer.connect": "Connect",
 "multiplayer.ipinfo": "Enter the IP of a server to connect to it:",
-"multiplayer.texturePrompt.line1": "This server recommends the use of a custom resource pack.",
+"multiplayer.texturePrompt.line1": "This server recommends the use of a custom texture pack.",
 "multiplayer.texturePrompt.line2": "Would you like to download and install it automagically?",
 "multiplayer.requiredTexturePrompt.line1": "This server requires the use of a custom resource pack.",
 "multiplayer.requiredTexturePrompt.line2": "Rejecting a custom resource pack will disconnect you from this server.",
@@ -683,7 +683,7 @@
 "options.modelPart.right_sleeve": "Right Sleeve",
 "options.modelPart.left_pants_leg": "Left Pants Leg",
 "options.modelPart.right_pants_leg": "Right Pants Leg",
-"options.resourcepack": "Resource Packs",
+"options.resourcepack": "Texture Packs",
 "options.fullscreen": "Fullscreen",
 "options.vsync": "Use VSync",
 "options.touchscreen": "Touchscreen Mode",
@@ -887,9 +887,9 @@
 "pack.dropConfirm": "Do you want to add following packs to Minecraft?",
 "pack.copyFailure": "Failed to copy packs",
 "pack.nameAndSource": "%s (%s)",
-"pack.openFolder": "Open resource pack folder",
-"pack.folderInfo": "(Place resource pack files here)",
-"resourcePack.title": "Select Resource Pack",
+"pack.openFolder": "Open texture pack folder",
+"pack.folderInfo": "(Place texture pack files here)",
+"resourcePack.title": "Select Texture Pack",
 "resourcePack.server.name": "World Specific Resources",
 "resourcePack.broken_assets": "BROKEN ASSETS DETECTED",
 "resourcePack.vanilla.description": "The default resources for Minecraft",
@@ -932,7 +932,7 @@
 "block.minecraft.polished_diorite": "Polished Diorite",
 "block.minecraft.andesite": "Andesite",
 "block.minecraft.polished_andesite": "Polished Andesite",
-"block.minecraft.hay_block": "Hay Bale",
+"block.minecraft.hay_block": "",
 "block.minecraft.grass_block": "Grass Block",
 "block.minecraft.dirt": "Dirt",
 "block.minecraft.coarse_dirt": "Dirt",
@@ -1256,7 +1256,7 @@
 "block.minecraft.attached_melon_stem": "Attached Melon Stem",
 "block.minecraft.pumpkin": "Pumpkin",
 "block.minecraft.carved_pumpkin": "Pumpkin",
-"block.minecraft.jack_o_lantern": "Jack o'Lantern",
+"block.minecraft.jack_o_lantern": "Jack 'o' Lantern",
 "block.minecraft.netherrack": "Netherrack",
 "block.minecraft.soul_sand": "Soul Sand",
 "block.minecraft.glowstone": "Glowstone",
@@ -1818,7 +1818,7 @@
 "block.minecraft.frogspawn": "Frogspawn",
 "block.minecraft.reinforced_deepslate": "Reinforced Deepslate",
 "item.minecraft.name_tag": "Name Tag",
-"item.minecraft.lead": "Lead",
+"item.minecraft.lead": "",
 "item.minecraft.iron_shovel": "Iron Shovel",
 "item.minecraft.iron_pickaxe": "Iron Pickaxe",
 "item.minecraft.iron_axe": "Iron Axe",
@@ -2535,8 +2535,8 @@
 "death.fell.killer": "%1$s was doomed to fall",
 "death.fell.assist": "%1$s was doomed to fall by %2$s",
 "death.fell.assist.item": "%1$s was doomed to fall by %2$s using %3$s",
-"death.fell.finish": "%1$s fell too far and was finished by %2$s",
-"death.fell.finish.item": "%1$s fell too far and was finished by %2$s using %3$s",
+"death.fell.finish": "%1$s was fell too far and was finished by %2$s",
+"death.fell.finish.item": "%1$s was fell too far and was finished by %2$s using %3$s",
 "death.attack.lightningBolt": "%1$s went up in flames",
 "death.attack.lightningBolt.player": "%1$s was struck by lightning whilst fighting %2$s",
 "death.attack.inFire": "%1$s went up in flames",
@@ -2952,6 +2952,66 @@
 "advMode.notAllowed": "Must be an opped player in creative mode",
 "advMode.trackOutput": "Track output",
 "mount.onboard": "Press %1$s to dismount",
+"mco.selectServer.openserver": "Open Server",
+"mco.selectServer.closeserver": "Close Server",
+"mco.selectServer.minigame": "Mini Game:",
+"mco.selectServer.uninitialized": "Click to Create Realm!",
+"mco.configure.world.edit.subscreen.title": "More Options",
+"mco.configure.world.buttons.startMiniGame": "Start Mini Game",
+"mco.configure.world.buttons.modifyMiniGame": "Modify Mini Game",
+"mco.configure.world.buttons.op": "Op",
+"mco.configure.world.buttons.deop": "Deop",
+"mco.configure.world.buttons.activity": "Player Activity",
+"mco.configure.world.buttons.moreoptions": "More options",
+"mco.configure.world.buttons.editworld": "Edit World",
+"mco.configure.world.invites.ops.tooltip": "Operator",
+"mco.configure.world.invites.normal.tooltip": "Normal user",
+"mco.configure.world.invites.remove.tooltip": "Remove",
+"mco.configure.world.subscription.recurring.daysleft": "Renewed automatically in",
+"mco.configure.world.subscription.less_than_a_day": "less than a day",
+"mco.configure.world.pvp": "PVP",
+"mco.configure.world.spawnAnimals": "Spawn Animals",
+"mco.configure.world.spawnNPCs": "Spawn NPCs",
+"mco.configure.world.spawnMonsters": "Spawn Monsters",
+"mco.configure.world.spawnProtection": "Spawn protection",
+"mco.configure.world.on": "On",
+"mco.configure.world.off": "Off",
+"mco.minigame.world.title": "Switch Realm to Mini Game",
+"mco.minigame.world.info1": "This will temporarily replace your world with a mini game!",
+"mco.minigame.world.info2": "You can later return to your original world without losing anything.",
+"mco.minigame.world.selected": "Selected mini game:",
+"mco.minigame.world.noSelection": "Please make a selection",
+"mco.minigame.world.startButton": "Switch",
+"mco.minigame.world.starting.screen.title": "Starting Mini Game...",
+"mco.minigame.world.changeButton": "Select Another Mini Game",
+"mco.minigame.world.stopButton": "End Mini Game",
+"mco.minigame.world.modify.title": "Modify Mini Game",
+"mco.minigame.world.modify.new": "Select another mini game?",
+"mco.minigame.world.modify.end": "End the mini game and restore your Realm?",
+"mco.minigame.world.restore.question.line1": "The mini game will end and your Realm will be restored.",
+"mco.minigame.world.restore.question.line2": "Are you sure you want to do this?",
+"mco.minigame.world.restore": "Ending Mini Game...",
+"mco.backup.backups": "Backups",
+"mco.backup.changes.tooltip": "Changes",
+"mco.backup.nobackups": "This realm doesn't have any backups currently.",
+"mco.backup.button.upload": "Upload world",
+"mco.backup.button.reset": "Reset world",
+"mco.backuplink.title": "Download Backup",
+"mco.backuplink.text": "Below is your download link for the world, if it didn't open in your browser, please copy it and insert it into your browser.",
+"mco.backuplink.copybutton": "Copy",
+"mco.template.title.minigame": "Realm Mini Games",
+"mco.upload.select.world.title": "Upload your world",
+"mco.upload.button.name": "Upload",
+"mco.upload.verifying": "Verifying your map",
+"mco.upload.preparing": "Preparing your world data",
+"mco.upload.close.failure": "Could not close your server, please try again later",
+"mco.upload.size.failure": "Selected world '%s' is too big!",
+"mco.upload.uploading": "Uploading '%s'",
+"mco.upload.done": "Upload done",
+"mco.upload.failed": "Upload failed! (%s)",
+"mco.upload.cancelled": "Upload cancelled",
+"mco.activity.title": "Player Activity",
+"mco.activity.noactivity": "No activity for the past %s days",
 "build.tooHigh": "Height limit for building is %s blocks",
 "item.modifiers.mainhand": "When in main hand:",
 "item.modifiers.offhand": "When in off hand:",
@@ -4699,7 +4759,7 @@
 "command.context.parse_error": "%s at position %s: %s",
 "command.failed": "An unknown error occurred while attempting to perform this command",
 "entity.notFound": "That entity cannot be found",
-"command.unknown.command": "Unknown command. Try /help for a list of commands",
+"command.unknown.command": "Unknown command. Try /help for a list of commands.",
 "parsing.int.invalid": "%s' is not a valid number",
 "parsing.int.expected": "%s' is not a valid number",
 "parsing.long.invalid": "%s' is not a valid number",
@@ -4724,7 +4784,7 @@
 "commands.execute.blocks.toobig": "Too many blocks in the specified area (%d > %d)",
 "commands.help.failed": "Unknown command or insufficient permissions",
 "commands.publish.alreadyPublished": "Multiplayer game is already hosted on port %s",
-"commands.publish.started": "Local game hosted on port %s",
+"commands.publish.started": "Local game hosted on %s",
 "commands.publish.success": "Multiplayer game is now hosted on port %s",
 "commands.publish.failed": "Unable to host local game",
 "commands.advancement.advancementNotFound": "Unknown achievmenet or statistic '%s'",
@@ -4819,7 +4879,7 @@
 "commands.enchant.failed.entity": "%s is not a valid entity for this command",
 "commands.enchant.failed.level": "%s is higher than the maximum level of %s supported by that enchantment",
 "enchantment.unknown": "There is no such enchantment with ID %d",
-"commands.enchant.failed.itemless": "The target doesn't hold an item",
+"commands.enchant.failed.itemless": "The target doesn't hold an item ",
 "commands.enchant.failed.incompatible": "The selected enchantment can't be added to the target item",
 "commands.enchant.success.single": "Enchanting succeeded",
 "commands.enchant.success.multiple": "Enchanting succeeded",
@@ -5385,66 +5445,6 @@
 "outOfMemory.title": "Out of memory!",
 "outOfMemory.message": "Minecraft has run out of memory.\n\nThis could be caused by a bug in the game or by the Java Virtual Machine not being allocated enough memory.\n\nTo prevent level corruption, the current game has quit. We've tried to free up enough memory to let you go back to the main menu and back to playing, but this may not have worked.\n\nPlease restart the game if you see this message again"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
