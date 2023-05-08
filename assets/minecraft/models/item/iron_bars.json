@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/classic/generateditemframe",
+  "parent": "minecraft:item/classic/generateditemframeblock",
   "textures": {
     "layer0": "minecraft:block/iron_bars"
   }
